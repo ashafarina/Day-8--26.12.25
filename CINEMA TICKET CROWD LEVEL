@@ -1,0 +1,10 @@
+class CinemaCrowd {
+    public static void main(String[] args) {
+        int booked = 180, capacity = 200;
+
+        if(booked > 170)
+            System.out.println("House Full Soon 🎬");
+        else
+            System.out.println("Seats Available");
+    }
+}
