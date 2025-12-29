@@ -1,0 +1,10 @@
+class AttentionCheck {
+    public static void main(String[] args) {
+        int focusMinutes = 18;
+
+        if(focusMinutes < 20)
+            System.out.println("Attention Low 😴");
+        else
+            System.out.println("Good Concentration 👍");
+    }
+}
