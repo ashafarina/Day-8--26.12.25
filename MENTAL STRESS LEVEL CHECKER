@@ -1,0 +1,21 @@
+public class StressChecker {
+
+    static void checkStress(int workHours, int sleepHours) {
+        System.out.println("Work Hours: " + workHours);
+        System.out.println("Sleep Hours: " + sleepHours);
+
+        if(workHours > 10 && sleepHours < 6)
+            System.out.println("Stress Level: High 😟");
+        else if(workHours > 8)
+            System.out.println("Stress Level: Moderate 😐");
+        else
+            System.out.println("Stress Level: Low 🙂");
+
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        checkStress(11, 5);
+        checkStress(8, 7);
+    }
+}
