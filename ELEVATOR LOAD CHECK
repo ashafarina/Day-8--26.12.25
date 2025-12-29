@@ -1,0 +1,10 @@
+class Elevator {
+    public static void main(String[] args) {
+        int weight = 650;
+
+        if(weight > 600)
+            System.out.println("Overload ❌");
+        else
+            System.out.println("Safe Load ✅");
+    }
+}
