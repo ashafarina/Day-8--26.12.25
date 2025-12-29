@@ -1,0 +1,10 @@
+class WaterTracker {
+    public static void main(String[] args) {
+        int glasses = 5;
+
+        if(glasses < 8)
+            System.out.println("Drink More Water 💧");
+        else
+            System.out.println("Hydration Good");
+    }
+}
