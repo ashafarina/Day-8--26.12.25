@@ -1,0 +1,20 @@
+ public class PollutionControl {
+
+    public static void main(String[] args) {
+        String[] factory = {"Factory A", "Factory B", "Factory C"};
+        int[] pollutionLevel = {85, 40, 95};
+
+        for(int i = 0; i < factory.length; i++) {
+            System.out.println(factory[i]);
+
+            if(pollutionLevel[i] > 90)
+                System.out.println("Status: Shutdown Required 🚫");
+            else if(pollutionLevel[i] > 60)
+                System.out.println("Status: Reduce Emission ⚠️");
+            else
+                System.out.println("Status: Safe ✅");
+
+            System.out.println();
+        }
+    }
+}
