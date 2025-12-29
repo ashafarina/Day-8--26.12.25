@@ -1,0 +1,10 @@
+class ExamTimer {
+    public static void main(String[] args) {
+        int timeLeft = 12;
+
+        if(timeLeft <= 5)
+            System.out.println("Submit Soon ⚠️");
+        else
+            System.out.println("Continue Writing");
+    }
+}
