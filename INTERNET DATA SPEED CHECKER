@@ -1,0 +1,12 @@
+class InternetSpeed {
+    public static void main(String[] args) {
+        int speed = 3;
+
+        if(speed < 2)
+            System.out.println("Very Slow Internet");
+        else if(speed < 5)
+            System.out.println("Average Speed");
+        else
+            System.out.println("High Speed");
+    }
+}
