@@ -1,0 +1,10 @@
+class NoiseLevel {
+    public static void main(String[] args) {
+        int db = 92;
+
+        if(db > 85)
+            System.out.println("Noise Pollution ⚠️");
+        else
+            System.out.println("Safe Noise Level");
+    }
+}
