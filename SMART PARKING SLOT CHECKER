@@ -1,0 +1,12 @@
+class Parking {
+    public static void main(String[] args) {
+        int total = 50, occupied = 38;
+        int free = total - occupied;
+
+        System.out.println("Free Slots: " + free);
+        if(free < 5)
+            System.out.println("Parking Almost Full ⚠️");
+        else
+            System.out.println("Parking Available ✅");
+    }
+}
