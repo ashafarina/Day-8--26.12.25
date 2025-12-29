@@ -1,0 +1,10 @@
+ class AirQuality {
+    public static void main(String[] args) {
+        int aqi = 165;
+
+        if(aqi > 150)
+            System.out.println("Unhealthy Air ⚠️");
+        else
+            System.out.println("Good Air");
+    }
+}
