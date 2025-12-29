@@ -1,0 +1,10 @@
+class FoodCheck {
+    public static void main(String[] args) {
+        int daysOld = 4;
+
+        if(daysOld > 3)
+            System.out.println("Food Spoiled ❌");
+        else
+            System.out.println("Food Fresh ✅");
+    }
+}
