@@ -1,0 +1,12 @@
+class BatteryHealth {
+    public static void main(String[] args) {
+        int charge = 18;
+
+        if(charge < 20)
+            System.out.println("Low Battery 🔋");
+        else if(charge < 50)
+            System.out.println("Battery Moderate");
+        else
+            System.out.println("Battery Good");
+    }
+}
