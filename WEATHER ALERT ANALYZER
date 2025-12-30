@@ -1,0 +1,20 @@
+public class WeatherAlert {
+
+    public static void main(String[] args) {
+        String[] city = {"Chennai", "Madurai", "Salem"};
+        int[] rainfall = {120, 45, 210};
+
+        for(int i = 0; i < city.length; i++) {
+            System.out.println("City: " + city[i]);
+
+            if(rainfall[i] > 200)
+                System.out.println("Red Alert 🚨");
+            else if(rainfall[i] > 100)
+                System.out.println("Orange Alert ⚠️");
+            else
+                System.out.println("Normal Weather ✅");
+
+            System.out.println();
+        }
+    }
+}
