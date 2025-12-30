@@ -1,0 +1,21 @@
+public class PowerUsage {
+
+    static void calculateBill(int units) {
+        int bill = units * 6;
+
+        System.out.println("Units Used: " + units);
+        System.out.println("Bill Amount: ₹" + bill);
+
+        if(units > 300)
+            System.out.println("Usage Level: High ⚠️");
+        else
+            System.out.println("Usage Level: Normal ✅");
+
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        calculateBill(250);
+        calculateBill(420);
+    }
+}
