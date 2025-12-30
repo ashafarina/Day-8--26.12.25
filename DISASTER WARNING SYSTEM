@@ -1,0 +1,21 @@
+ public class DisasterWarning {
+
+    static void checkAlert(String disaster, int level) {
+        System.out.println("Disaster: " + disaster);
+
+        if(level >= 8)
+            System.out.println("Alert: Emergency Evacuation 🚨");
+        else if(level >= 5)
+            System.out.println("Alert: Stay Alert ⚠️");
+        else
+            System.out.println("Alert: Safe ✅");
+
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        checkAlert("Earthquake", 9);
+        checkAlert("Flood", 6);
+        checkAlert("Cyclone", 3);
+    }
+}
